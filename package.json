@@ -1,0 +1,17 @@
+{
+  "name": "@rainder/koa-router",
+  "version": "0.0.1",
+  "description": "Opinionated koa router",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrius Skerla",
+  "license": "ISC",
+  "dependencies": {
+    "koa-compose": "^2.4.0",
+    "koa-json-body": "^4.0.0",
+    "lodash": "^4.14.1",
+    "skerla-json-schema": "^0.5.0"
+  }
+}
