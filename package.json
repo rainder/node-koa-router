@@ -8,7 +8,9 @@
   },
   "author": "Andrius Skerla",
   "license": "ISC",
+  "private": false,
   "dependencies": {
+    "koa-body": "^1.4.0",
     "koa-compose": "^2.4.0",
     "koa-json-body": "^4.0.0",
     "lodash": "^4.14.1",
