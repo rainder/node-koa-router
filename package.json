@@ -15,5 +15,18 @@
     "koa-json-body": "^4.0.0",
     "lodash": "^4.14.1",
     "skerla-json-schema": "^0.5.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rainder/node-koa-router.git"
+  },
+  "keywords": [
+    "koa",
+    "router"
+  ],
+  "bugs": {
+    "url": "https://github.com/rainder/node-koa-router/issues"
+  },
+  "homepage": "https://github.com/rainder/node-koa-router#readme"
 }

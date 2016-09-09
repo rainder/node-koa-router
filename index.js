@@ -34,7 +34,7 @@ module.exports = function (options = {}) {
   function *router() {
     const url = this.url.split('?')[0];
     const urlParts = url.split('/');
-    const ctx = { endpoint: url, headers: this.headers };
+    const ctx = { endpoint: url, headers: this.headers, req: this.req, res: this.res };
 
     const endpoint = routes.endpoint[url];
     if (!endpoint) {
