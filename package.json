@@ -1,6 +1,6 @@
 {
   "name": "@rainder/koa-router",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Opinionated koa router",
   "main": "index.js",
   "scripts": {
@@ -10,9 +10,9 @@
   "license": "ISC",
   "private": false,
   "dependencies": {
-    "koa-body": "^1.4.0",
-    "koa-compose": "^2.4.0",
-    "koa-json-body": "^4.0.0",
+    "koa-body": "^4.2.0",
+    "koa-compose": "^4.1.0",
+    "koa-json-body": "^5.3.0",
     "lodash": "^4.14.1",
     "skerla-json-schema": "^0.5.0"
   },
